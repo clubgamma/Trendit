@@ -1,8 +1,7 @@
 # trendit by Club Gamma
 
 > **Note**
->
-> - To add new feat create your branch
+> - To add new feature create your branch
 
 ## 👇 Prerequisites
 
