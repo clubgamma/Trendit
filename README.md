@@ -3,13 +3,13 @@
   <img src="https://media0.giphy.com/media/rM0wxzvwsv5g4/giphy.gif?cid=ecf05e47xgcl1aw8bepvuowgebabo5jy3bx5sdgmbbxfxrjw&rid=giphy.gif&ct=g" alt="img">
 </p>
 
-# Description
+## Description
 - this project is about building a website that provides top trading keywords from all over the internet (Google trends, Twitter, Youtube, FB, Instagram ) using API.
 
 ## Purpose
 - using keywords from Trendit a content creator can have the right idea what to create or what keywords they can  post to achieve maximum  reach.
 
-# Prerequisites
+## Prerequisites
 
 Before contributing or adding a new feature, please make sure you have already installed the following tools:
 
@@ -17,9 +17,12 @@ Before contributing or adding a new feature, please make sure you have already i
 - [NodeJs](https://nodejs.org/en/download/)
 - [MongoDB](https://www.mongodb.com/try/download/community)
 
-# Installation Steps
+## Installation Steps
 
 1. Fork the project
+<p align="center">
+  <img src="https://github.com/clubgamma/Trendit/blob/main/client/src/Assets/Images/Doc/img.png" alt="img">
+</p>
 
 2. Clone the project by running
 ```
@@ -41,7 +44,7 @@ npm i
 npm start
 ```
 
-#Thanks to all Contributors
+## Thanks to all Contributors
 
 Thanks a lot for spending your time helping.
 
