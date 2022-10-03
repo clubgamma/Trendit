@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Home/>
+      //have to add a footer
     </div>
   );
 }
