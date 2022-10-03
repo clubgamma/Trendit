@@ -1,4 +1,3 @@
-import react from 'react';
 import logo from '../../Assets/Images/Logo/Trendit-logos_transparent.png';
 
 const Home = () => {
