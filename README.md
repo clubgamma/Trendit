@@ -4,14 +4,14 @@
 </p>
 
 ## Description
-- this project is about building a website that provides top trading keywords from all over the internet (Google trends, Twitter, Youtube, FB, Instagram ) using API.
+- This project is about building a website that provides top trending keywords from all over the internet (Google Trends, Twitter, Youtube, FB, Instagram ) using API.
 
 ## Purpose
-- using keywords from Trendit a content creator can have the right idea what to create or what keywords they can  post to achieve maximum  reach.
+- Using keywords from Trendit, a content creator can have the right idea on what to create or what keywords they can post to get maximum reach.
 
 ## Prerequisites
 
-Before contributing or adding a new feature, please make sure you have already installed the following tools:
+Before contributing or adding a new feature, Please make sure you have already installed the following tools:
 
 - [Git](https://git-scm.com/downloads)
 - [NodeJs](https://nodejs.org/en/download/)
