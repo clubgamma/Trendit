@@ -1,3 +1,8 @@
 Container {
     justify-content: space-between;
 }
+
+.app-logo-no-text {
+    height: 2rem;
+    width: 2rem;
+}
