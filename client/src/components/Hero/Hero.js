@@ -4,18 +4,18 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button';
 
-import heroImg from '../../Assets/Images/Hero/hero.jpeg'
+import heroImg from '../../Assets/Images/Hero/scatter-plot-outlier.svg'
 
 const Hero = () => {
   return (
-    <Container fluid="lg">
+    <Container fluid>
       <Row>
-        <Col>
-          <h1>Scale your content with Trendit</h1>
-          <h2>Trendit helps creators to grow faster</h2>
-          <Button size="lg" variant="dark">Get Started</Button>
+        <Col className="d-flex flex-column justify-content-center align-items-center px-5 py-3" md={12} lg={7}>
+          <h1 className="mb-3 display-1">Scale your content with Trendit</h1>
+          <h2 className="mb-4 display-5 text-muted">Trendit helps creators to grow <span className="text-primary text-capitalize">faster</span></h2>
+          <Button size="lg" variant="dark" className="border border-white">Get Started</Button>
         </Col>
-        <Col>
+        <Col className="d-flex flex-column justify-content-center align-items-center" md={12} lg={5}>
           <Image fluid rounded src={heroImg} alt="Group of people forming a growing arrow"/>
         </Col>
       </Row>
