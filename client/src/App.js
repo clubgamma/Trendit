@@ -1,10 +1,13 @@
-import Navbar from './components/Navbar/Navbar'
-import Home from './components/Home/Home';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import Footer from './components/Footer/Footer';
 import React from 'react';
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ThemeProvider from "react-bootstrap/ThemeProvider";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import Home from "./components/Home/Home";
+import ContactUs from "./components/ContactUs/ContactUs";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Footer from "./components/Footer/Footer";
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -22,9 +25,16 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className={'App ' + this.state.theme}>
-        <Navbar switchTheme={this.toggleTheme} theme={this.state.theme} />
-        <Home theme={this.state.theme} />
+      <div className="{'App ' + this.state.theme}">
+        <Router>
+          <div>
+            <Navbar switchTheme={this.toggleTheme} theme={this.state.theme} />
+            <Routes>
+              <Route path="/" element={<Home theme={this.state.theme} />} />
+              <Route path="/contact-us" element={<ContactUs />} />
+            </Routes>
+          </div>
+        </Router>
         <Footer theme={this.state.theme} />
       </div>
     );
