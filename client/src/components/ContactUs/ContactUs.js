@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Form, Container, Row, Col } from "react-bootstrap";
 
-function ContactUs() {
+function ContactUs(props) {
   return (
     <div className="pt-5 pb-3">
       <h3>Contact Us</h3>
@@ -11,15 +11,15 @@ function ContactUs() {
             <Col md={6}>
               <Form.Group className="mb-3">
                 <Form.Label>Name</Form.Label>
-                <Form.Control></Form.Control>
+                <Form.Control className={'bg-' + props.theme}></Form.Control>
               </Form.Group>
               <Form.Group className="mb-3">
                 <Form.Label>Email</Form.Label>
-                <Form.Control></Form.Control>
+                <Form.Control className={'bg-' + props.theme}></Form.Control>
               </Form.Group>
               <Form.Group className="mb-3">
                 <Form.Label>Message</Form.Label>
-                <Form.Control as="textarea" rows="4"></Form.Control>
+                <Form.Control className={'bg-' + props.theme} as="textarea" rows="4"></Form.Control>
               </Form.Group>
               <Button className="w-100">Submit</Button>
             </Col>
