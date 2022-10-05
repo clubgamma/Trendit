@@ -1,9 +1,9 @@
 import logo from '../../Assets/Images/Logo/Trendit-logos_transparent.png';
 
-const Home = () => {
+const Home = (props) => {
     return (
         <>
-            <div className="App-header">
+            <div className={'App-header ' + props.theme}>
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
                     Trendit Coming soon...
