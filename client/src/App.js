@@ -1,8 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import ThemeProvider from "react-bootstrap/ThemeProvider";
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
 import Home from "./components/Home/Home";
 import ContactUs from "./components/ContactUs/ContactUs";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -25,13 +23,13 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="{'App ' + this.state.theme}">
+      <div className={'App ' + this.state.theme}>
         <Router>
           <div>
             <Navbar switchTheme={this.toggleTheme} theme={this.state.theme} />
             <Routes>
-              <Route path="/" element={<Home theme={this.state.theme} />} />
-              <Route path="/contact-us" element={<ContactUs />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/contact-us" element={<ContactUs theme={this.state.theme} />} />
             </Routes>
           </div>
         </Router>
