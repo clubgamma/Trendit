@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.form{
+    height: 100vh;
+    width:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #010028;
+}
+
+.form-content{
+    max-width: 430px;
+    width:100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #fff;
+}
+.form-header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232823;
+    text-align: center;
+}
+form{
+    margin-top: 20px;
+}
+.form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top:20px;
+    border-radius: 6px;
+}
+.field input,
+.field button{ 
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid #CACACA;
+}
+.field input:focus{
+    border-bottom-width: 2px;
+}
+
+/*BUTTONS*/
+.login-btn{
+    text-align: center;
+    margin-top: 10px;
+}
+.eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size:18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+.field button{
+    color: #fff;
+    background-color: #0047ab;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.field button:hover{
+    color: #fff;
+    background-color: #1845d8;
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.form a{
+    color: #1034a6;
+    text-decoration: none;
+}
+.form-contentm a:hover{
+    text-decoration: underline;
+}
+
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #232836;
+    padding:0 15px;
+}
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.facebook{
+    color: #fff;
+    background-color: #4267b2;
+}
+a.facebook .facebook-icon{
+    height: 28px;
+    width: 28px;
+    color: #0171d3;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.facebook-icon{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+a.google{
+    border: 1px solid #cacaca;
+}
+a.google span{
+    font-weight: 500;
+    opacity: 0.6;
+    color: #232836;
+}
+a.google .google-icon{
+    height: 28px;
+    width: 28px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e54303;
+}
+.google-icon{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}

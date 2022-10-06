@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +21,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+li, a, button{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo{
+  cursor: pointer;
+  width:10%;
+}
+.menu-links{
+  list-style: none;
+}
+.menu-links li{
+  display: inline-block;
+  padding: 0px 202px;
+}
+
+.login-btn{
+  padding: 9px 5px;
+  background-color: orangered ; /** This color can be changed **/
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
