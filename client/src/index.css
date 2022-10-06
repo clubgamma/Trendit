@@ -49,6 +49,9 @@ header{
   display: inline-block;
   padding: 0px 20px;
 }
+.menu-links li a:hover{
+  color: #0047ab;
+}
 
 
 .menu-links li a{
@@ -63,6 +66,7 @@ header{
   color: #fff;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  outline: none;
 }
 
 .btn button:hover{
