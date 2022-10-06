@@ -1,10 +1,10 @@
 
-const Footer = () => {
+const Footer = (props) => {
     return (
         <>
-            <div className="footer">
+            <div className={'footer bg-' + props.theme}>
                 <div class="container">
-                    <footer class="py-3 my-4">
+                    <footer class="py-3">
                         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                         <li class="nav-item"><a href="google.com" class="nav-link px-2 text-muted">Home</a></li>
                         <li class="nav-item"><a href="google.com" class="nav-link px-2 text-muted">About us</a></li>

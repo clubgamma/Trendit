@@ -4,10 +4,11 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo_no_text from "../../Assets/Images/Logo/Trendit-logos_transparent_no_text.png";
 import "./Navbar.css";
+import ThemeSwitcher from "../ThemeSwitcher/ThemeSwitcher";
 
-function BasicExample() {
+function BasicExample(props) {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg={props.theme} variant={props.theme} expand="lg">
       <Container>
         <Navbar.Brand href="/">
           <img
@@ -34,6 +35,7 @@ function BasicExample() {
               <NavDropdown.Item href="#action/3.4">twitter</NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <ThemeSwitcher theme={props.theme} switchTheme={props.switchTheme} />
         </Navbar.Collapse>
       </Container>
     </Navbar>
