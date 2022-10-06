@@ -25,7 +25,9 @@ code {
 
 li, a, button{
   font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
   font-size: 16px;
+  color: #010410;
   text-decoration: none;
 }
 
@@ -38,21 +40,32 @@ header{
 
 .logo{
   cursor: pointer;
-  width:10%;
+  width:4%;
 }
 .menu-links{
   list-style: none;
 }
 .menu-links li{
   display: inline-block;
-  padding: 0px 202px;
+  padding: 0px 20px;
 }
 
-.login-btn{
-  padding: 9px 5px;
-  background-color: orangered ; /** This color can be changed **/
+
+.menu-links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.btn button{
+  padding: 9px 50px;
+  background-color: #0047ab;
   border: none;
-  border-radius: 50px;
+  border-radius: 6px;
+  color: #fff;
   cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.btn button:hover{
+  background-color: #1845d8;
 }
 
