@@ -10,12 +10,13 @@ function BasicExample(props) {
   return (
     <Navbar bg={props.theme} variant={props.theme} expand="lg">
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand className="brand" href="/">
           <img
             src={logo_no_text}
             className="app-logo-no-text"
             alt="logo_no_text"
           />
+          <h4>TRENDIT</h4>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

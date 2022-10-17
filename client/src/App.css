@@ -19,6 +19,15 @@ body,
   pointer-events: none;
 }
 
+.brand {
+  display: flex;
+  gap: 10px;
+}
+
+.toptrending {
+  width: 70%;
+}
+
 .App-header {
   background-color: #ebf0fa;
   min-height: 100vh;
