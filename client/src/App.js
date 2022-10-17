@@ -6,6 +6,7 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
+import AboutUS from './components/AboutUs/AboutUs';
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -30,6 +31,7 @@ class App extends React.Component {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/contact-us" element={<ContactUs theme={this.state.theme} />} />
+              <Route path="/about-us" element={<AboutUS  theme={this.state.theme}/>} />
             </Routes>
           </div>
         </Router>
