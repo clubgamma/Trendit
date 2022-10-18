@@ -6,7 +6,7 @@ import logo_no_text from "../../Assets/Images/Logo/Trendit-logos_transparent_no_
 import "./Navbar.css";
 import ThemeSwitcher from "../ThemeSwitcher/ThemeSwitcher";
 
-function BasicExample(props) {
+function BasicExample(props) { 
   return (
     <Navbar bg={props.theme} variant={props.theme} expand="lg">
       <Container>
@@ -27,13 +27,13 @@ function BasicExample(props) {
             <Nav.Link href="/contact-us">Contact US</Nav.Link>
 
             <NavDropdown title="Trends" id="basic-nav-dropdown" menuVariant={props.theme}>
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="/google-trend">
                 Google Trends
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.2">Facebook</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Instagram</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">twitter</NavDropdown.Item>
+              <NavDropdown.Item href="/facebook-trend">Facebook</NavDropdown.Item>
+              <NavDropdown.Item href="instagram-trend">Instagram</NavDropdown.Item>
+              <NavDropdown.Item href="/twitter-trend">twitter</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <ThemeSwitcher theme={props.theme} switchTheme={props.switchTheme} />

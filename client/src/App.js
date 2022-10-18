@@ -7,6 +7,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import AboutUS from './components/AboutUs/AboutUs';
+import FacebookTrend from './components/Trends/Facebook/FacebookTrend';
+import GoogleTrend from './components/Trends/Google/GoogleTrend';
+import InstagramTrend from './components/Trends/Instagram/InstagramTrend';
+import TwitterTrend from './components/Trends/Twitter/TwitterTrend';
+
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -32,6 +38,10 @@ class App extends React.Component {
               <Route path="/" element={<Home />} />
               <Route path="/contact-us" element={<ContactUs theme={this.state.theme} />} />
               <Route path="/about-us" element={<AboutUS  theme={this.state.theme}/>} />
+              <Route path="/facebook-trend" element={<FacebookTrend/>}/>
+              <Route path="/twitter-trend" element={<TwitterTrend/>}/>
+              <Route path="/instagram-trend" element={<InstagramTrend/>}/>
+              <Route path="/google-trend" element={<GoogleTrend/>}/>
             </Routes>
           </div>
         </Router>
