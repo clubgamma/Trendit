@@ -27,7 +27,7 @@ function BasicExample(props) {
             <Nav.Link href="/contact-us">Contact US</Nav.Link>
 
             <NavDropdown title="Trends" id="basic-nav-dropdown" menuVariant={props.theme}>
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="/google-trend">
                 Google Trends
               </NavDropdown.Item>
               <NavDropdown.Divider />
