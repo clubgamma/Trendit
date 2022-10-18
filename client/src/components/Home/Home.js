@@ -1,12 +1,17 @@
 import Hero from '../Hero/Hero'
-import logo from '../../Assets/Images/Logo/Trendit-logos_transparent.png';
 
 const Home = () => {
     return (
         <>
             <div className="App-header">
+
               <Hero/>
-              <img src={logo} className="App-logo" alt="logo" />
+
+              <div className='toptrending'>
+                <h2>TOP Trends</h2>
+                <hr/>
+              </div>
+
             </div>
         </>
     );
