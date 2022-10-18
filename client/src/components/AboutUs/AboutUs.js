@@ -1,7 +1,7 @@
 import React from "react";
 import './about.css'
 
-function AboutUS(props) {
+function AboutUS(props) { 
   return (
     <div className="pt-5 pb-3">
       <h3>About Us</h3>
