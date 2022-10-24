@@ -2,7 +2,7 @@
 const Footer = (props) => {
     return (
         <>
-            <div className={'footer bg-' + props.theme}>
+            <div className={'footer bg-' + props.theme} id="footer_container">
                 <div class="container">
                     <footer class="py-3">
                         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
