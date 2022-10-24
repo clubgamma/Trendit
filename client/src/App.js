@@ -12,6 +12,7 @@ import GoogleTrend from './components/Trends/Google/GoogleTrend';
 import InstagramTrend from './components/Trends/Instagram/InstagramTrend';
 import TwitterTrend from './components/Trends/Twitter/TwitterTrend';
 import Login from './components/Login/Login';
+import Signup from './components/Signup/Signup';
 
 
 class App extends React.Component {
@@ -44,6 +45,7 @@ class App extends React.Component {
               <Route path="/instagram-trend" element={<InstagramTrend/>}/>
               <Route path="/google-trend" element={<GoogleTrend/>}/>
               <Route path="/login" element={<Login/>}/>
+              <Route path="/signup" element={<Signup/>}/>
             </Routes>
           </div>
         </Router>
