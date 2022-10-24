@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button';
 
-import heroImg from '../../Assets/Images/Hero/scatter-plot-outlier.svg'
+import heroImg from '../../Assets/Images/Hero/two.png'
 
 const Hero = () => {
   return (
