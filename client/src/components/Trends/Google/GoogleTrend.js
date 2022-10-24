@@ -4,8 +4,6 @@ import './GoogleTrend.css'
 function GoogleTrend() {
     return (
         <>
-    
-            
             <div>GoogleTrend</div>
        
         </>
