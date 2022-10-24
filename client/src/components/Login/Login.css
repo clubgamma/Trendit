@@ -1,0 +1,120 @@
+.Outer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -57.5%);
+    border-radius: 10px;
+    width: 30%;
+    height: 70%;
+    background-color: rgba(39, 43, 50, 0.2);
+    border: 2px solid black;
+    transition: all .2s ease-in-out;
+    padding: 20px;
+    z-index: 1;
+    color: black !important; 
+  }
+  
+  .Outer:hover{
+    box-shadow: 5px 5px 15px rgb(48, 48, 48);
+  }
+  
+  .Inner{
+    /* text-transform: uppercase; */
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .contactDiv{
+    /* margin: 20px; */
+    margin: 0px auto;
+    width: 100%;
+    /* color: blue; */
+  }
+  
+  .Row{
+    width: 100%;
+  }
+  
+  .loginStyle{
+    width: 100%;
+  }
+  
+  .loginStyle form{
+    width: 100%;
+    /* margin: 0px auto; */
+  }
+  
+  
+  .input_div1, .input_div2{
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .input_div1 label, .input_div2 label{
+    font-size: 17px;
+    margin-left: 2px;
+    overflow: hidden;
+    transition: all 1s ease;
+    width: fit-content;
+    height: 30px;
+  }
+  
+  .input_div1 label:hover, .input_div2 label:hover{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .input_div1 input, .input_div2 input{
+    width: 100%;
+    /* background-color: white; */
+    outline: none;
+      border: none;
+      width: 370px;
+      padding: 15px;
+      border-radius: 10px;
+      background-color: rgb(62, 65, 70);
+      margin: 5px 0;
+      font-size: 14px;
+  }
+  
+  .login_out{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .loginB{
+    width: 33%;
+    padding: 10px;
+    margin: 0px auto;
+    font-size: 18px;
+    text-align: center;
+    outline: none;
+    border:none;
+    background: linear-gradient(to right bottom, rgb(106, 106, 238), rgb(238, 132, 106));
+    border-radius: 2px;
+    color: white;
+  }
+  
+  .loginB:hover{
+    background: linear-gradient(to right bottom, rgb(238, 132, 106),rgb(106, 106, 238));
+  }
+  
+  .ask{
+    text-align: center;
+  }
+  
+  .reg{
+    text-decoration: none;
+    outline: none;
+    font-size: 17px;
+  }
+  
+  .reg:hover{
+    border-bottom: 2px solid rgb(130, 167, 248);
+  }
+  .s_up{
+    opacity: 1;
+  }
